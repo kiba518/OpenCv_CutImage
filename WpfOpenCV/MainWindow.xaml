@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfOpenCV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfOpenCV"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="500">
+    <Grid>
+        <DockPanel HorizontalAlignment="Center">
+            <Button Name="btnRectangle" Content="剪切矩形文件" Width="200" Height="100" Click="btnRectangle_Click" ></Button>
+            <Button Name="btnCircle" Content="剪切圆形文件" Width="200" Height="100" Click="btnCircle_Click" Margin="10,0,0,0" ></Button>
+        </DockPanel>
+    </Grid>
+</Window>
